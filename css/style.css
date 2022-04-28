@@ -1,0 +1,94 @@
+:root{
+    --bg-navBar: #3e4262;
+    --bg-gray-light: #5A5A5A;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.bg-navBar{
+    background-color: var(--bg-navBar);
+}
+
+.bg-gray-light{
+    background-color: var(--bg-gray-light); 
+}
+
+#Ventajas p{    
+    font-size: 0.8rem;
+}
+
+main .carrusel{
+    height: 80vh;    
+    object-fit: cover;
+    object-position: center;
+}
+
+.twitter{
+    height: 80vh;
+    object-fit: contain;
+    object-position: center;
+}
+
+.accordion-button{    
+    filter: invert(90%);    
+}
+
+.accordion-button:not(.collapsed){
+    background-color: white;
+    color: black;
+}
+
+.accordion-body{
+    background-color: #333;    
+}
+
+.btn-image{
+    outline: none;
+    box-shadow: none;
+}
+
+.gallery{
+    width: 100%;     
+    object-fit: contain;
+    object-position: center;
+}
+
+.bg-light-dark{
+    background-color: rgb(230, 230, 230);
+}
+
+.font-footer{
+    font-size: 0.7rem;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: inherit
+}
+
+
+@media (max-width: 767px) {
+    main .carrusel{
+        height: 40vh;        
+    }
+
+    .twitter{
+        height: 35vh;                    
+    }
+    .newsletter{
+        width: 50%;
+    }
+
+    footer img{
+        width: 40%;
+    }
+}
