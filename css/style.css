@@ -78,11 +78,13 @@ footer a:hover {
 
 @media (max-width: 767px) {
     main .carrusel{
-        height: 40vh;        
+        height: auto; 
+        width: 100%;
     }
 
     .twitter{
-        height: 35vh;                    
+        height: auto;
+        width: 90%;
     }
     .newsletter{
         width: 50%;
